@@ -62,7 +62,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>spring3</wtpContextName>
+					<wtpContextName>spring4</wtpContextName>
 				</configuration>
 			</plugin>
 			<plugin>
