@@ -14,6 +14,8 @@ public class HelloController {
 	public String printWelcome(ModelMap model) {
 
 		model.addAttribute("message", "Spring 4 MVC Hello World");
+		System.out.println("printWelcome called........");
+		
 		return "hello";
 
 	}
@@ -24,7 +26,8 @@ public class HelloController {
 		ModelAndView model = new ModelAndView();
 		model.setViewName("hello");
 		model.addObject("msg", name);
-
+		System.out.println("hello called........"+name);
+		
 		return model;
 
 	}
