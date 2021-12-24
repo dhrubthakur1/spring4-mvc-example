@@ -1,0 +1,4 @@
+---
+application: 
+    buildRequired: "Yes"
+    buildType: "Java"    
