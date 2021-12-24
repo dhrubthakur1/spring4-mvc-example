@@ -1,0 +1,5 @@
+application: 
+    deployRequired: "Yes"
+    serverUrl: ""
+    authId: ""
+    context: ""   
