@@ -2,4 +2,6 @@
 def url = scm.userRemoteConfigs[0].url  
 println(url)
 def conf = ['url':url,'branch':'main']
-sharedPipeline.call(conf)
+def datas = readYaml file: "build.yml"
+println(datas)
+//sharedPipeline.call(conf)
