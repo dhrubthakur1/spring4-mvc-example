@@ -3,6 +3,7 @@ def url = scm.userRemoteConfigs[0].url
 println(url)
 def conf = ['url':url,'branch':'main']
 sharedPipeline2.call(conf)
-println(${env.buildRequired})
+println(conf)
+println(env.buildRequired)
 //buildPipelineCfg.call()
 //buildCfg.call()
