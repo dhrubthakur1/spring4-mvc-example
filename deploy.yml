@@ -1,5 +1,5 @@
 application: 
-    deployRequired: "No"
+    deployRequired: "Yes"
     tomcatId: "tomcatadmin"
     tomcatUrl: "http://localhost:7070"
     contextPath: "spring8"   
