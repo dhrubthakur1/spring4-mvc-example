@@ -1,7 +1,7 @@
 @Library('shared-lib-pipeline') _
 def url = scm.userRemoteConfigs[0].url  
 println(url)
-def conf = ['url':url,'branch':'main']
+def conf = ['url':url,'branch':branch]
 sharedPipeline2.call(conf)
 println(conf)
 println(env.buildRequired)
