@@ -2,4 +2,4 @@ application:
     deployRequired: "Yes"
     tomcatId: "tomcatadmin"
     tomcatUrl: "http://localhost:7070"
-    contextPath: "spring8"   
+    contextPath: "spring9"   
