@@ -1,2 +1,2 @@
 From maven:latest AS maven
-COPY README.md home/
+RUN apk add -U git
