@@ -1,7 +1,8 @@
 @Library('scripted-shared-lib') _
 def url = scm.userRemoteConfigs[0].url  
-println(url+"   "+branch)
-def conf = ['url':url,'branch':branch]
+def branchUrl = scm.userRemoteConfigs[0].branch  
+println(url+"   "+branchUrl)
+def conf = ['url':url,'branch':branchUrl]
 scriptedSL.call(conf)
 println(conf)
 scriptedSL.buildAndDeploy(conf)
