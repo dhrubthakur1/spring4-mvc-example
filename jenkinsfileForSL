@@ -1,4 +1,4 @@
-@Library('shared-lib-pipeline') _
+@Library('66480-shared-lib') _
 String url = scm.userRemoteConfigs[0].url  
 String branch = "${scm.branches[0].name.split("/")[1]}"
 println(url+"   "+branch)
