@@ -1,3 +1,3 @@
-FROM maven:16-alpine
+FROM maven:latest
 
 RUN apk add -U git curl
