@@ -16,7 +16,7 @@ public class HelloController {
 		model.addAttribute("message", "Spring 4 MVC Hello World");
 		System.out.println("printWelcome called........");
 		
-		return "hello";
+		return "helloooo";
 
 	}
 
